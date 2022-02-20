@@ -6,7 +6,7 @@
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 20px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid var(--color-white);
 }
 
 .highlight {
@@ -42,7 +42,7 @@
 }
 
 .itemNumber {
-  color: #a1a5b0;
+  color: var(--color-light-gray);
   font-size: 72px;
   align-self: center;
 }
@@ -72,13 +72,13 @@
 }
 
 .ownerHandle {
-  color: #00ebef;
+  color: var(--color-blue);
 }
 
 .ownerLink {
   padding: 12px;
   border-radius: 50px;
   max-width: 50px;
-  border: 1px solid #fff;
+  border: 1px solid var(--color-white);
   margin-left: 10px;
 }

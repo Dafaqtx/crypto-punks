@@ -1,6 +1,6 @@
 .card {
-  color: #fff;
-  background-color: #1a1c1e;
+  color: var(--color-white);
+  background-color: var(--color-light-black);
   border-radius: 20px;
   overflow: hidden;
   min-width: 300px;
@@ -27,7 +27,7 @@
 }
 
 .id {
-  color: #a1a5b0;
+  color: var(--color-light-gray);
   font-size: 18px;
   font-weight: 600;
 }
